@@ -13,7 +13,7 @@ Step 5: You will also have stock-XGBoost(xgb0.81) kernel to run the benchmark co
 Step 1: Open terminal and clone HE_workshop folder<br />
 
 step 2: Open HE_workshop/Pytorch folder<br />
-step 3: Run the extract_Data notebook to unzip the training_set and test_set data.<br />
+step 3: Run the extract_Data notebook to unzip the training_set and test_set data that can be downloaded from https://www.kaggle.com/datasets/tongpython/cat-and-dog?select=test_set.<br />
 step 4: Open the HE_pt_train.ipynb notebook for demo IPEX training and activate the Pytorch(AI kit) kernel.<br />
 step 5: Run all the cells for to see comparision between baseline pytorch and IPEX training.<br />
 step 6: Open the HE_pt_inference.ipynb notebook for demo performance comparision with baseline pytorch and IPEX for inference.<br />
