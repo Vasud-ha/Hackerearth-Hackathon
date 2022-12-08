@@ -11,7 +11,7 @@ Step 5: You will also have stock-XGBoost(xgb0.81) and intel-modin kernel to run 
 ### Exercise 1: Intel® extension for Pytorch
 
 Step 1: Open terminal and clone oneAPI samples<br />
-git clone https://github.com/oneapi-src/oneAPI-samples.git
+git clone https://github.com/oneapi-src/oneAPI-samples.git<br />
 step 2: Browse oneAPI-samples/AI-and-Analytics/Features-and-Functionality/IntelPyTorch_Extensions_Inference_Optimization/<br />
 step 3: Open the optimize_pytorch_models_with_ipex.ipynb<br />
 step 4: Activate the Pytorch(AI kit) kernel.<br />
@@ -23,7 +23,7 @@ Step 1: Open terminal, and clone oneAPI samples<br />
 git clone https://github.com/oneapi-src/oneAPI-samples.git<br />
 Step 2: Browse the oneAPI-samples/AI-and-Analytics/Features-and-Functionality/IntelTensorFlow_ModelZoo_Inference_with_FP32_Int8/<br />
 Step 3: Open the ResNet50_Inference.ipynb<br />
-Step 4: First select stock-tensorflow kernel with onednn on and run through every cell of the notebook and note the average time and throughput.<br />
+Step 4: First select stock-tensorflow kernel with onednn off  and run through every cell of the notebook and note the average time and throughput.<br />
 Step 5: Follow step 5 but now with onednn off by adding the following env variable [os.environ["TF_ENABLE_ONEDNN_OPTS"]='0'] and note the performance<br />
 Step 6: Repeat step 5 but with intel-tensorflow kernel to add further openmp optimizations and compare the average time and throughput<br />
 
