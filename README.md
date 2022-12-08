@@ -4,7 +4,7 @@ Step 1: Open the condaenvsetup.ipynb and activate Python 3(Intel oneAPI 2022.3) 
 Step 2: Run through the cells one by one. "qsub" submits the job to do all the setup and "qstat" shows the job status. (all details related to devcloud job submission is in the Welcome.ipyb file)<br />
 Step 3: Once the job is finished, the setup should be completed.<br />
 Step 4: Now you will have stock-tensorflow as well as intel-tensorflow in the jupyter kernels to run the benchmark code.<br />
-Step 5: You will also have stock-XGBoost(xgb0.81) and intel-modin kernel to run the benchmark code.<br />
+Step 5: You will also have intel-modin kernel to run the benchmark code.<br />
 
 ## Running the notebooks:
 
@@ -45,7 +45,7 @@ Step 1: Browse /oneAPI-samples/AI-and-Analytics/Features-and-Functionality/Intel
 Step 2: Open IntelPython_XGBoost_Performance.ipynb<br />
 Step 3: First activate Python 3(Intel oneAPI 2022.3) kernel and run till 8th cell.<br />
 Step 4: Check if perf_numbers.csv file has been created.<br />
-Step 5: Change the kernel to xgb0.81 to check results with stock XGBoost.<br />
+Step 5: Now install xgboost=0.81 inside juypter notebook to change the xgboost version.<br />
 Step 6: Run all the cell again to see performace comparision.<br />
 
 ## Documentation Links:
