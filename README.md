@@ -23,9 +23,9 @@ Step 1: Open terminal, and clone oneAPI samples<br />
 git clone https://github.com/oneapi-src/oneAPI-samples.git<br />
 Step 2: Browse the oneAPI-samples/AI-and-Analytics/Features-and-Functionality/IntelTensorFlow_ModelZoo_Inference_with_FP32_Int8/<br />
 Step 3: Open the ResNet50_Inference.ipynb<br />
-Step 4: First select stock-tensorflow kernel with onednn off  and run through every cell of the notebook and note the average time and throughput.<br />
-Step 5: Follow step 5 but now with onednn off by adding the following env variable [os.environ["TF_ENABLE_ONEDNN_OPTS"]='0'] and note the performance<br />
-Step 6: Repeat step 5 but with intel-tensorflow kernel to add further openmp optimizations and compare the average time and throughput<br />
+Step 4: First select stock-tensorflow kernel and add the following env variable [os.environ["TF_ENABLE_ONEDNN_OPTS"]='0'] to disable onednn and run through each cell of the notebook to get the average time and throughput.<br />
+Step 5: Follow step 4 but now with onednn on by changing the env variable  [os.environ["TF_ENABLE_ONEDNN_OPTS"]='1'] and note the performance<br />
+Step 6: Repeat the same process but this time with intel-tensorflow kernel to add further openmp optimizations and compare the average time and throughput<br />
 
 ### Exercise 3: Intel® Extension for Scikit-learn 
 
@@ -41,7 +41,7 @@ Step 3: Run all the cells which has modin and pandas comparision.<br />
 
 ### Exercise 5: XGBoost Optimized for Intel®
 
-Step 1: Browse oneAPI-samples/AI-and-Analytics/Features-and-Functionality/IntelPython_XGBoost_Performance/<br />
+Step 1: Browse /oneAPI-samples/AI-and-Analytics/Features-and-Functionality/IntelPython_XGBoost_Performance/<br />
 Step 2: Open IntelPython_XGBoost_Performance.ipynb<br />
 Step 3: First activate Python 3(Intel oneAPI 2022.3) kernel and run till 8th cell.<br />
 Step 4: Check if perf_numbers.csv file has been created.<br />
@@ -59,8 +59,8 @@ https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-tool
 Intel® extension for Pytorch*
 https://intel.github.io/intel-extension-for-pytorch/cpu/latest/
 
-Intel® Extension for TensorFlow*
-https://github.com/intel/intel-extension-for-tensorflow
+Intel® Optimization for TensorFlow*
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/optimization-for-tensorflow.html
 
 Intel® Extension for Scikit-learn*
 https://www.intel.com/content/www/us/en/developer/tools/oneapi/scikit-learn.html#gs.ki3i07
